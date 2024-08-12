@@ -1,0 +1,48 @@
+.dashboard {
+    background: #fff;
+    border: 2px solid #333;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    z-index: 2000;
+    margin-top: 20px; /* Add margin-top to separate from content */
+  }
+  
+  .dashboard h2 {
+    margin-top: 0;
+  }
+  
+  .control {
+    margin-bottom: 15px;
+  }
+  
+  .control label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .control input[type="text"], 
+  .control input[type="number"] {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
